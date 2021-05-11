@@ -14,6 +14,7 @@ const DemoRender = (props): JSX.Element => {
     width: '100%',
     backgroundColor: 'lightgrey',
     border: '2px Solid grey',
+    overflow: scroll,
   };
 
   const componentBuilder = (array, key = 0) => {

@@ -38,9 +38,9 @@ const AppContainer = () => {
       </div>
       <div className="app-container">
         
+            <RightContainer isThemeLight={isThemeLight}/>
             <LeftContainer isThemeLight={isThemeLight}/>
             <MainContainer />
-            <RightContainer isThemeLight={isThemeLight}/>
 
       </div>
       </styleContext.Provider>

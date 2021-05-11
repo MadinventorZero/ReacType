@@ -6,12 +6,13 @@ import { Resizable } from 're-resizable';
 const BottomPanel = () => {
   return (
     <Resizable
-      enable={{
-        top: true
-      }}
-      minHeight={'50%'}
+      // enable={{
+      //   top: true
+      // }}
+      // minHeight={'50%'}
+      minWidth={'75%'}
     >
-      <div className="bottom-panel" >
+      <div className="bottom-panel">
         <BottomTabs  />
       </div>
     </Resizable>

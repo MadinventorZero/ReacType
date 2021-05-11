@@ -3,6 +3,7 @@ import BottomPanel from '../components/bottom/BottomPanel';
 import CanvasContainer from '../components/main/CanvasContainer';
 import { styleContext } from './AppContainer';
 import DemoRender from '../components/main/DemoRender';
+import RightContainer from './RightContainer';
 
 const MainContainer = () => {
   const { style } = useContext(styleContext);
@@ -15,7 +16,10 @@ const MainContainer = () => {
         {/* Caret Component Render */}
         <DemoRender />
       </div>
-      <BottomPanel />
+      <div className='control-container'>
+        {/* <RightContainer/> */}
+        <BottomPanel />
+      </div>
     </div>
   );
 };

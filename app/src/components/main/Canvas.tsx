@@ -84,7 +84,8 @@ function Canvas() {
     backgroundColor: isOver ? 'lightyellow' : '#F5F5F5',
     backgroundImage: "url('https://www.transparenttextures.com/patterns/diagonal-noise.png')",
     border: '1px solid #FBFBF2',
-    borderStyle: isOver ? 'dotted' : 'solid'
+    borderStyle: isOver ? 'dotted' : 'solid',
+    overflow: scroll
   };
   // Combine the default styles of the canvas with the custom styles set by the user for that component
   // The render children function renders all direct children of a given component
