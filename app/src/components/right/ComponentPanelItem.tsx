@@ -74,6 +74,7 @@ const ComponentPanelItem: React.FC<{
       style={{
         display: 'grid',
         color: '#262626',
+        display: 'grid',
         backgroundColor: 'transparent',
         border: root
           ? '2px dotted #186BB4'
