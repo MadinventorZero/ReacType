@@ -84,7 +84,8 @@ const ComponentPanelItem: React.FC<{
         margin: '5px 0px'
       }}
     >
-      {isFocus && <div className={classes.focusMark}></div>}  
+
+      {isFocus && <div className={classes.focusMark}></div>}
       <div className="compPanelItem" onClick={handleClick}>
         <h3 >{name}</h3>
       </div>
